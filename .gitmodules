@@ -1,3 +1,3 @@
 [submodule "rebuilds/karriers"]
 	path = rebuilds/karriers
-	url = https://github.com/MarcoAAlmeida/karriers
+	url = https://github.com/MarcoAAlmeida/karriers.git
