@@ -1,0 +1,51 @@
+site_name: Gaming Rebuilds
+site_description: A meta-repository for game rebuilds using agentic frameworks
+site_author: MarcoAAlmeida
+site_url: https://marcoaalmeida.github.io/gaming_rebuilds/
+
+repo_name: MarcoAAlmeida/gaming_rebuilds
+repo_url: https://github.com/MarcoAAlmeida/gaming_rebuilds
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Agent Knowledge Base: AGENTS.md
+  - Rebuilds:
+      - Overview: rebuilds/index.md
+      - Karriers: rebuilds/karriers.md
+
+plugins:
+  - search
