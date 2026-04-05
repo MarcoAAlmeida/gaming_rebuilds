@@ -7,7 +7,7 @@ repo_name: MarcoAAlmeida/gaming_rebuilds
 repo_url: https://github.com/MarcoAAlmeida/gaming_rebuilds
 
 theme:
-  name: gitbook
+  name: cinder
 
 markdown_extensions:
   - admonition
