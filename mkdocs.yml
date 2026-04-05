@@ -19,9 +19,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Agent Knowledge Base: AGENTS.md
-  - Rebuilds:
-      - Overview: rebuilds/index.md
-      - Karriers: rebuilds/karriers.md
+  - Karriers: rebuilds/karriers.md
 
 plugins:
   - search
