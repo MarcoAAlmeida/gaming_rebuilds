@@ -11,12 +11,10 @@ theme:
 
 markdown_extensions:
   - admonition
-  - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
   - tables
   - toc:
       permalink: true
+  - fenced_code
 
 nav:
   - Home: index.md
