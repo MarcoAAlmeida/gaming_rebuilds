@@ -7,35 +7,13 @@ repo_name: MarcoAAlmeida/gaming_rebuilds
 repo_url: https://github.com/MarcoAAlmeida/gaming_rebuilds
 
 theme:
-  name: material
-  palette:
-    - scheme: default
-      primary: deep purple
-      accent: purple
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: deep purple
-      accent: purple
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - toc.integrate
-    - content.code.copy
+  name: gitbook
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.tabbed:
-      alternate_style: true
   - tables
   - toc:
       permalink: true
